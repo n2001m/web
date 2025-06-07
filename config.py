@@ -6,10 +6,10 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'stnarjes'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'OQxPTHTwRNrGUp2JiwFxZFx2dyDPSS0S8t5iYZq1sJUajMCklFJ6dOj0sNDMPVO4vH8UJhc0nEhd+AStyjIAYA=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'ViNUzKC4NfoYzcqNuVPK7d9hupMJ9f2kVHuRXoxBPTp2dhFEdpG06mM2uprDArEPEV2uifQy4YbK+AStiuKQEw=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'cms-sql-narjes.database.windows.net'
+    SQL_SERVER = os.environ.get('SQL_SERVER') or 'admin-narjes.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'cms'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'admin-narjes'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or '123Mishal'
